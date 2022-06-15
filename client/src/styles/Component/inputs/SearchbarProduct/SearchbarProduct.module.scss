@@ -1,0 +1,18 @@
+.SearchBar_container {
+ display: flex;
+ justify-content: center;
+ .SearchBar_item {
+  padding: 0.3em;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: border 0.5s ease-in-out;
+  width: 260px;
+  height: 2.2em;
+
+  &:focus{
+   border: 2px solid rgb(115, 165, 203);
+   outline: none;
+   
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,aAAa;EACpC,kBAAkB,EAAE,IAAI;EACxB,gBAAgB,EAAE,OAAO;CAQ1B;;AAdD,AAOE,aAPW,CAOX,0BAA0B,CAAA;EACxB,gBAAgB,EAAE,OAAO;CAE1B",
+    "sources": [
+        "Venta.module.scss"
+    ],
+    "names": [],
+    "file": "Venta.module.css"
+}

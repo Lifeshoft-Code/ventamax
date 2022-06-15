@@ -1,0 +1,24 @@
+.SearchBar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SearchBar_container .SearchBar_item {
+  padding: 0.3em;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  -webkit-transition: border 0.5s ease-in-out;
+  transition: border 0.5s ease-in-out;
+  width: 260px;
+  height: 2.2em;
+}
+
+.SearchBar_container .SearchBar_item:focus {
+  border: 2px solid #73a5cb;
+  outline: none;
+}
+/*# sourceMappingURL=SearchbarProduct.module.css.map */

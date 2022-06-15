@@ -1,0 +1,21 @@
+button {
+  display: inline-block;
+  padding: 0.2em 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #ebebeb;
+  color: rgba(0, 0, 0, 0.638);
+  font-size: 0.8em;
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00000017;
+}
+/*# sourceMappingURL=btn.module.css.map */

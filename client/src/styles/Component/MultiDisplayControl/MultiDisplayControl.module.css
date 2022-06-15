@@ -1,0 +1,53 @@
+.Container {
+  background-color: #464646;
+  overflow: hidden;
+}
+
+.Container .Items {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+}
+
+.Container .Items .Item {
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #858585;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  -webkit-transition: all 10s ease-in-out;
+  transition: all 10s ease-in-out;
+  cursor: pointer;
+}
+
+.Container .Items .Item.AddBtn {
+  background-color: #e3882e;
+  border: none;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  position: static;
+  z-index: 0;
+}
+/*# sourceMappingURL=MultiDisplayControl.module.css.map */

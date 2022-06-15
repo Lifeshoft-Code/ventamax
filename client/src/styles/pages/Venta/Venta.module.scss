@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.AppContainer {
+  width: 100%;
+  height: calc(100vh - 4em);
+  display: grid;
+  grid-template-columns: 4em auto 24em;
+  grid-template-rows: 100%;
+  background-color: #f5f5f5;
+  .Factura_Control_Container{
+    background-color: #f3f3f3;
+
+  }
+  
+
+  
+}
